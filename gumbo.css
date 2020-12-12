@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "terminus";
+    src: url(fonts/terminus.ttf);
+}
+@font-face {
+    font-family: "terminus";
+    src: url(fonts/terminus-bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "terminus";
+    src: url(fonts/terminus-italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "terminus";
+    src: url(fonts/terminus-bold.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+* {
+  font-family: "terminus";
+}
+h1 {
+  text-justify: center;
+}
+.gumbo-color {
+  font-family: "terminus";
+  width: 30px;
+  height: 30px;
+  border: 7px solid black;
+  background-color: #49380a;
+  padding: 50px;
+  margin: 20px;
+}
