@@ -20,21 +20,28 @@
 }
 * {
   font-family: "OfficeCodePro";
+  box-sizing: border-box;
 }
-h1 {
+header {
   text-align: center;
 }
 h3 {
   font-size-adjust: 110%;
   text-align: center;
 }
+p {
+  font-size-adjust: 120%
+}
 .secret{ 
   color: black; 
   background-color:black;
   font-style: italic;
 }
-.secret:hover { 
-  background-color:white; 
+.secret:active { 
+  background-color: white; 
+}
+.secret:hover{
+  background-color: white;
 }
 .wrapper{
   border-left: 8px solid darkblue;
@@ -51,11 +58,11 @@ h3 {
   text-align: center;
   font-size: x-large;
   width: 80%;
-  border-left: 3px solid darkblue;
-  border-bottom: 3px solid darkblue;
-  padding: 10px;
+  border-left: 8px solid darkblue;
+  border-bottom: 8px solid darkblue;
+  padding: 20px;
 }
-.important {
+.warning {
   color: darkred;
   font-weight: bold;
 }
@@ -66,4 +73,10 @@ h3 {
   background-color: #49380a;
   padding: 50px;
   margin: auto;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
 }
